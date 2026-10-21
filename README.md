@@ -22,6 +22,20 @@ The official logo of the Charme Dance AI photo-to-dance video generator.
 
 ![Charme Dance AI logo - AI photo to Baile Charme dance video generator](images/charme-dance-ai-logo-512.png)
 
+### Seu Zé de Madureira — the viral Baile Charme video
+
+First frame of the viral TikTok video where Seu Zé dances Baile Charme at Pedra do Sal, Rio de Janeiro (video by [@seuzerj](https://www.tiktok.com/@seuzerj), dance credit to @iae.zenegao).
+
+![Seu Zé de Madureira dancing Baile Charme - first frame of the viral TikTok video](images/seu-ze-de-madureira-baile-charme-dance-frame.jpg)
+
+### The original Baile Charme dance video
+
+First frame of the original video by [@iae.zenegao](https://www.tiktok.com/@iae.zenegao) that started the trend.
+
+![Baile Charme original dance video by iae.zenegao - the video behind the Seu Zé de Madureira trend](images/baile-charme-original-dance-video-frame.jpg)
+
+Want to dance like Seu Zé? Create your own AI Baile Charme dance video from a single photo at [charmedanceai.org](https://charmedanceai.org/).
+
 ---
 
 ## ✨ What is Charme Dance AI?
@@ -56,6 +70,8 @@ You can try generating dance videos for free at [charmedanceai.org](https://char
 ## 📄 License
 
 The images in this repository are the official visual assets of [Charme Dance AI](https://charmedanceai.org/). You may share them when referencing the service. The Charme Dance AI name and logo belong to their respective owners.
+
+The two video frames shown above are screenshots of public TikTok videos, included here only to document the origin of the trend. All rights to those videos belong to their original creators [@seuzerj](https://www.tiktok.com/@seuzerj) and [@iae.zenegao](https://www.tiktok.com/@iae.zenegao).
 
 ---
 
