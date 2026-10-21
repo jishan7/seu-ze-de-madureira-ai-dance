@@ -6,6 +6,8 @@ Turn one clear photo of a person into a **Baile Charme dance video** in seconds.
 
 **🌐 Try it free at: [https://charmedanceai.org/](https://charmedanceai.org/)**
 
+🖼️ **Web gallery:** [https://jishan7.github.io/seu-ze-de-madureira-ai-dance/](https://jishan7.github.io/seu-ze-de-madureira-ai-dance/)
+
 ---
 
 ## 📸 Gallery

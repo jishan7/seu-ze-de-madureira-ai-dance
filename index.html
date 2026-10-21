@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seu Zé de Madureira AI Dance Video — Charme Dance AI Gallery</title>
+<meta name="description" content="Official gallery of Charme Dance AI: turn a photo into a Seu Zé de Madureira style Baile Charme dance video. Free AI photo-to-dance video generator.">
+<link rel="canonical" href="https://jishan7.github.io/seu-ze-de-madureira-ai-dance/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Seu Zé de Madureira AI Dance Video — Charme Dance AI Gallery">
+<meta property="og:description" content="Turn one photo into a Baile Charme dance video with Charme Dance AI, inspired by the viral Seu Zé de Madureira trend.">
+<meta property="og:url" content="https://jishan7.github.io/seu-ze-de-madureira-ai-dance/">
+<meta property="og:image" content="images/charme-dance-ai-baile-charme-video.jpg">
+<link rel="icon" type="image/svg+xml" href="images/charme-dance-ai-logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageGallery",
+  "name": "Seu Zé de Madureira AI Dance Video — Charme Dance AI Gallery",
+  "description": "Official image gallery of Charme Dance AI, the AI photo-to-dance video generator inspired by the viral Seu Zé de Madureira Baile Charme trend.",
+  "url": "https://jishan7.github.io/seu-ze-de-madureira-ai-dance/",
+  "image": [
+    "images/charme-dance-ai-baile-charme-video.jpg",
+    "images/seu-ze-de-madureira-baile-charme-dance-frame.jpg",
+    "images/baile-charme-original-dance-video-frame.jpg",
+    "images/charme-dance-ai-logo-512.png"
+  ]
+}
+</script>
+<style>
+  /* ===== 主题变量：白天奶油派对 / 夜间霓虹夜幕，跟随系统切换 ===== */
+  :root{
+    --bg:#faf3e7;
+    --bg-soft:#f3e7d3;
+    --ink:#2d1b4e;
+    --ink-soft:#5c4a7a;
+    --card:#fffdf8;
+    --line:rgba(45,27,78,.14);
+    --pink:#e94f9c;
+    --orange:#f5923e;
+    --violet:#6c3bd1;
+    --glow-a:rgba(233,79,156,.22);
+    --glow-b:rgba(245,146,62,.20);
+    --glow-c:rgba(108,59,209,.14);
+    --shadow:0 18px 50px rgba(45,27,78,.14);
+    --grain-opacity:.05;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#170f2b;
+      --bg-soft:#1f1538;
+      --ink:#f6eee2;
+      --ink-soft:#b9a9d6;
+      --card:#221741;
+      --line:rgba(246,238,226,.14);
+      --glow-a:rgba(233,79,156,.28);
+      --glow-b:rgba(245,146,62,.22);
+      --glow-c:rgba(108,59,209,.30);
+      --shadow:0 18px 50px rgba(0,0,0,.45);
+      --grain-opacity:.07;
+    }
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Instrument Sans",Verdana,sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    line-height:1.65;
+    overflow-x:hidden;
+  }
+  /* 颗粒噪点 + 霓虹光晕氛围背景 */
+  body::before{
+    content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
+    background:
+      radial-gradient(52rem 30rem at 82% -6%,var(--glow-a),transparent 65%),
+      radial-gradient(44rem 28rem at -10% 30%,var(--glow-b),transparent 62%),
+      radial-gradient(50rem 34rem at 60% 105%,var(--glow-c),transparent 60%);
+  }
+  body::after{
+    content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:var(--grain-opacity);
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 clamp(1.1rem,4vw,2.5rem)}
+
+  /* ===== 顶部导航 ===== */
+  header{position:sticky;top:0;z-index:10;backdrop-filter:blur(14px);background:color-mix(in srgb,var(--bg) 78%,transparent);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:.85rem 0}
+  .brand{display:flex;align-items:center;gap:.6rem;font-family:"Unbounded",sans-serif;font-weight:700;font-size:.92rem;color:var(--ink);text-decoration:none;letter-spacing:.02em}
+  .brand img{width:30px;height:30px;border-radius:8px}
+  .nav-cta{
+    font-family:"Unbounded",sans-serif;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--bg);background:linear-gradient(100deg,var(--pink),var(--orange));
+    padding:.6rem 1.15rem;border-radius:999px;text-decoration:none;white-space:nowrap;
+    box-shadow:0 6px 18px rgba(233,79,156,.35);transition:transform .18s ease,box-shadow .18s ease;
+  }
+  .nav-cta:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(233,79,156,.45)}
+
+  /* ===== Hero ===== */
+  .hero{position:relative;padding:clamp(3.2rem,9vw,6.5rem) 0 clamp(2.4rem,6vw,4rem);text-align:left}
+  .kicker{
+    display:inline-flex;align-items:center;gap:.5rem;
+    font-family:"Unbounded",sans-serif;font-size:.7rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--violet);background:color-mix(in srgb,var(--violet) 12%,transparent);
+    border:1px solid color-mix(in srgb,var(--violet) 30%,transparent);
+    padding:.45rem .95rem;border-radius:999px;margin-bottom:1.4rem;
+  }
+  @media (prefers-color-scheme: dark){.kicker{color:#d9c6ff}}
+  .kicker::before{content:"";width:7px;height:7px;border-radius:50%;background:linear-gradient(120deg,var(--pink),var(--orange))}
+  h1{
+    font-family:"Unbounded",sans-serif;font-weight:900;
+    font-size:clamp(2rem,4.5vw,3.4rem);line-height:1.12;letter-spacing:-.01em;
+    max-width:21ch;margin-bottom:1.3rem;
+  }
+  h1 .accent{
+    background:linear-gradient(100deg,var(--pink) 10%,var(--orange) 90%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .hero p.lead{font-size:clamp(1.02rem,1.8vw,1.22rem);color:var(--ink-soft);max-width:52ch;margin-bottom:2rem}
+  .cta-row{display:flex;flex-wrap:wrap;gap:.9rem;align-items:center}
+  .btn-primary{
+    font-family:"Unbounded",sans-serif;font-weight:700;font-size:.88rem;
+    color:var(--bg);text-decoration:none;text-align:center;
+    background:linear-gradient(100deg,var(--pink),var(--orange));
+    padding:1rem 2rem;border-radius:999px;
+    box-shadow:0 12px 30px rgba(233,79,156,.38);
+    transition:transform .18s ease,box-shadow .18s ease;
+  }
+  .btn-primary:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 16px 38px rgba(233,79,156,.5)}
+  .btn-ghost{
+    font-weight:600;font-size:.92rem;color:var(--ink);text-decoration:none;
+    padding:1rem 1.6rem;border-radius:999px;border:1.5px solid var(--line);
+    transition:border-color .18s ease,background .18s ease;
+  }
+  .btn-ghost:hover{border-color:var(--pink);background:color-mix(in srgb,var(--pink) 8%,transparent)}
+  /* 舞动弧线装饰，呼应品牌 logo 的粉橙圆弧 */
+  .hero-arc{position:absolute;right:-2%;top:8%;width:clamp(120px,22vw,240px);opacity:.9;pointer-events:none}
+
+  /* 入场动画：依次浮现 */
+  .rise{opacity:0;transform:translateY(22px);animation:rise .7s cubic-bezier(.2,.7,.3,1) forwards}
+  .rise:nth-child(2){animation-delay:.08s}.rise:nth-child(3){animation-delay:.16s}.rise:nth-child(4){animation-delay:.24s}.rise:nth-child(5){animation-delay:.32s}
+  @keyframes rise{to{opacity:1;transform:none}}
+
+  /* ===== 通用区块 ===== */
+  section{padding:clamp(2.6rem,6vw,4.5rem) 0}
+  h2{font-family:"Unbounded",sans-serif;font-weight:700;font-size:clamp(1.25rem,2.6vw,1.7rem);line-height:1.25;margin-bottom:.7rem}
+  .sub{color:var(--ink-soft);max-width:62ch;margin-bottom:2rem}
+
+  /* ===== 图集：不对称网格 ===== */
+  .gallery{display:grid;grid-template-columns:repeat(6,1fr);gap:clamp(.9rem,2vw,1.4rem)}
+  figure{position:relative;border-radius:20px;overflow:hidden;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);transition:transform .25s ease}
+  figure:hover{transform:translateY(-5px)}
+  figure img{display:block;width:100%;height:auto}
+  figcaption{
+    font-size:.82rem;color:var(--ink-soft);
+    padding:.75rem 1rem;border-top:1px solid var(--line);background:var(--card);
+  }
+  .g-cover{grid-column:1/-1}
+  .g-cover img{aspect-ratio:1200/630;object-fit:cover}
+  .g-a{grid-column:span 3}
+  .g-b{grid-column:span 3;transform:translateY(clamp(0px,2vw,18px))}
+  .g-logo{grid-column:span 2}
+  .g-logo img{aspect-ratio:1/1;object-fit:contain;padding:1.2rem}
+  .g-note{grid-column:span 4;display:flex;flex-direction:column;justify-content:center;gap:1rem;padding:clamp(1.4rem,3vw,2.2rem);border-radius:20px;border:1.5px dashed color-mix(in srgb,var(--pink) 55%,transparent);background:color-mix(in srgb,var(--pink) 7%,transparent)}
+  .g-note p{color:var(--ink)}
+  .g-note .mini-cta{font-family:"Unbounded",sans-serif;font-weight:700;font-size:.82rem;color:var(--pink);text-decoration:none}
+  .g-note .mini-cta:hover{text-decoration:underline}
+
+  /* ===== 步骤 ===== */
+  .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(.9rem,2vw,1.4rem);counter-reset:step}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:1.6rem;position:relative;overflow:hidden}
+  .step::before{
+    counter-increment:step;content:"0" counter(step);
+    font-family:"Unbounded",sans-serif;font-weight:900;font-size:2.6rem;
+    position:absolute;right:.6rem;top:-.4rem;opacity:.12;
+  }
+  .step h3{font-family:"Unbounded",sans-serif;font-size:.95rem;font-weight:700;margin:.4rem 0 .5rem}
+  .step p{font-size:.92rem;color:var(--ink-soft)}
+
+  /* ===== 葡语区块 ===== */
+  .pt-br{
+    border-radius:24px;padding:clamp(1.8rem,4vw,3rem);
+    background:linear-gradient(135deg,color-mix(in srgb,var(--pink) 12%,var(--card)),color-mix(in srgb,var(--orange) 12%,var(--card)));
+    border:1px solid var(--line);
+  }
+  .pt-br h2{display:flex;align-items:center;gap:.6rem}
+  .pt-br ul{list-style:none;margin:1.1rem 0 1.6rem}
+  .pt-br li{padding:.3rem 0 .3rem 1.6rem;position:relative;color:var(--ink)}
+  .pt-br li::before{content:"🕺";position:absolute;left:0;font-size:.9rem}
+
+  /* ===== 页脚 ===== */
+  footer{border-top:1px solid var(--line);padding:2.2rem 0 3rem;text-align:center;color:var(--ink-soft);font-size:.88rem}
+  footer a{color:var(--pink);font-weight:600;text-decoration:none}
+  footer a:hover{text-decoration:underline}
+
+  /* ===== 移动端 ===== */
+  @media (max-width:720px){
+    .gallery{grid-template-columns:1fr}
+    .g-cover,.g-a,.g-b,.g-logo,.g-note{grid-column:1/-1}
+    .g-b{transform:none}
+    .steps{grid-template-columns:1fr}
+    .hero-arc{display:none}
+    .cta-row .btn-primary,.cta-row .btn-ghost{width:100%}
+  }
+  @media (prefers-reduced-motion: reduce){
+    .rise{animation:none;opacity:1;transform:none}
+    figure,.btn-primary,.nav-cta{transition:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="https://charmedanceai.org/">
+      <img src="images/charme-dance-ai-logo.svg" alt="Charme Dance AI logo" width="30" height="30">
+      Charme Dance AI
+    </a>
+    <a class="nav-cta" href="https://charmedanceai.org/">Create your video</a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- Hero -->
+  <div class="hero">
+    <svg class="hero-arc" viewBox="0 0 200 200" fill="none" aria-hidden="true">
+      <path d="M30 150 A80 80 0 0 1 150 40" stroke="#e94f9c" stroke-width="14" stroke-linecap="round"/>
+      <path d="M70 175 A95 95 0 0 0 185 90" stroke="#f5923e" stroke-width="14" stroke-linecap="round"/>
+    </svg>
+    <span class="kicker rise">AI Photo-to-Dance Video · Gallery</span>
+    <h1 class="rise">Seu Zé de Madureira <span class="accent">AI dance video</span> gallery</h1>
+    <p class="lead rise">Official image gallery of <strong>Charme Dance AI</strong> — the free online generator that turns one clear photo of a person into a Brazilian <strong>Baile Charme dance video</strong>, inspired by the viral Seu Zé de Madureira trend.</p>
+    <div class="cta-row rise">
+      <a class="btn-primary" href="https://charmedanceai.org/">Make your dance video free →</a>
+      <a class="btn-ghost" href="#gallery">Browse the gallery</a>
+    </div>
+  </div>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <h2>The gallery</h2>
+    <p class="sub">Official artwork and the viral videos behind the trend. Every image below belongs to the <a href="https://charmedanceai.org/" style="color:var(--pink);font-weight:600;text-decoration:none">Charme Dance AI</a> visual identity or to its credited creators.</p>
+    <div class="gallery">
+      <figure class="g-cover">
+        <img src="images/charme-dance-ai-baile-charme-video.jpg" alt="Charme Dance AI cover: turn your photo into a Baile Charme dance video, inspired by the Seu Zé de Madureira trend" width="1200" height="630">
+        <figcaption>Official cover art — “Your photo. Your Charme dance.” Step into a Brazilian Baile Charme video.</figcaption>
+      </figure>
+      <figure class="g-a">
+        <img src="images/seu-ze-de-madureira-baile-charme-dance-frame.jpg" alt="Seu Zé de Madureira dancing Baile Charme — first frame of the viral TikTok video at Pedra do Sal, Rio de Janeiro" width="576" height="1024">
+        <figcaption>The viral moment: Seu Zé dances Baile Charme at Pedra do Sal (video by @seuzerj, dance credit to @iae.zenegao).</figcaption>
+      </figure>
+      <figure class="g-b">
+        <img src="images/baile-charme-original-dance-video-frame.jpg" alt="Baile Charme original dance video by iae.zenegao — the video that started the Seu Zé de Madureira trend" width="576" height="1024">
+        <figcaption>Where it started: the original Baile Charme video by @iae.zenegao.</figcaption>
+      </figure>
+      <figure class="g-logo">
+        <img src="images/charme-dance-ai-logo-512.png" alt="Charme Dance AI logo — AI photo to Baile Charme dance video generator" width="512" height="512">
+        <figcaption>Official Charme Dance AI logo.</figcaption>
+      </figure>
+      <div class="g-note">
+        <h2 style="font-size:1.15rem">Want to dance like Seu Zé?</h2>
+        <p>Upload one clear photo, pick the Baile Charme style, and the AI animates the rest — no dance skills needed.</p>
+        <a class="mini-cta" href="https://charmedanceai.org/">Create yours free at charmedanceai.org →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section>
+    <h2>How it works</h2>
+    <p class="sub">From photo to dance video in about a minute.</p>
+    <div class="steps">
+      <div class="step"><h3>Upload a photo</h3><p>One clear photo of a person — a full or upper-body shot works best.</p></div>
+      <div class="step"><h3>Pick the dance</h3><p>Choose the Baile Charme style made famous by the Seu Zé de Madureira videos.</p></div>
+      <div class="step"><h3>Share it</h3><p>Download your AI dance video and post it to TikTok, Instagram Reels, YouTube Shorts or WhatsApp.</p></div>
+    </div>
+  </section>
+
+  <!-- 葡语区块 -->
+  <section>
+    <div class="pt-br" lang="pt-BR">
+      <h2>🇧🇷 Em português</h2>
+      <p><strong>Charme Dance AI</strong> é um gerador de vídeo de dança com inteligência artificial, inspirado na tendência viral do <strong>Seu Zé de Madureira</strong>. Transforme uma única foto em um vídeo de dança Baile Charme em segundos.</p>
+      <ul>
+        <li>Envie uma foto de uma pessoa</li>
+        <li>A IA cria o vídeo dançando Baile Charme</li>
+        <li>Pronto em cerca de um minuto</li>
+        <li>Compartilhe no TikTok, Instagram e WhatsApp</li>
+      </ul>
+      <a class="btn-primary" href="https://charmedanceai.org/">Experimente grátis →</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Official gallery of <a href="https://charmedanceai.org/">Charme Dance AI</a> · Free AI photo-to-dance video generator</p>
+    <p style="margin-top:.5rem;opacity:.75">Video frames © their original creators @seuzerj and @iae.zenegao. All other visuals © Charme Dance AI.</p>
+  </div>
+</footer>
+
+</body>
+</html>
