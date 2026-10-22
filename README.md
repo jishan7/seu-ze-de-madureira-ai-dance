@@ -1,10 +1,10 @@
 # Seu Zé de Madureira AI Dance Video — Charme Dance AI Gallery
 
-Official image gallery of [**Charme Dance AI**](https://charmedanceai.org/) — the AI photo-to-dance video generator inspired by the viral **Seu Zé de Madureira** trend from Brazil.
+Official image gallery of [**Charme Dance AI**](https://charmedanceai.org/?utm_source=github&utm_medium=referral&utm_campaign=seu-ze-de-madureira-ai-dance) — the AI photo-to-dance video generator inspired by the viral **Seu Zé de Madureira** trend from Brazil.
 
 Turn one clear photo of a person into a **Baile Charme dance video** in seconds. No dance skills needed — just upload a photo and let the AI do the dancing.
 
-**🌐 Try it free at: [https://charmedanceai.org/](https://charmedanceai.org/)**
+**🌐 Try it free at: [https://charmedanceai.org/](https://charmedanceai.org/?utm_source=github&utm_medium=referral&utm_campaign=seu-ze-de-madureira-ai-dance)**
 
 🖼️ **Web gallery:** [https://jishan7.github.io/seu-ze-de-madureira-ai-dance/](https://jishan7.github.io/seu-ze-de-madureira-ai-dance/)
 
@@ -36,7 +36,7 @@ First frame of the original video by [@iae.zenegao](https://www.tiktok.com/@iae.
 
 ![Baile Charme original dance video by iae.zenegao - the video behind the Seu Zé de Madureira trend](images/baile-charme-original-dance-video-frame.jpg)
 
-Want to dance like Seu Zé? Create your own AI Baile Charme dance video from a single photo at [charmedanceai.org](https://charmedanceai.org/).
+Want to dance like Seu Zé? Create your own AI Baile Charme dance video from a single photo at [charmedanceai.org](https://charmedanceai.org/?utm_source=github&utm_medium=referral&utm_campaign=seu-ze-de-madureira-ai-dance).
 
 ---
 
@@ -49,11 +49,11 @@ Charme Dance AI is an online **AI dance video generator** that transforms a sing
 - ⚡ **Fast results** — your AI dance video is ready in about a minute
 - 📱 **Share-ready** — download and post straight to TikTok, Instagram Reels, YouTube Shorts and WhatsApp status
 
-**👉 Create yours now: [https://charmedanceai.org/](https://charmedanceai.org/)**
+**👉 Create yours now: [https://charmedanceai.org/](https://charmedanceai.org/?utm_source=github&utm_medium=referral&utm_campaign=seu-ze-de-madureira-ai-dance)**
 
 ## 🎬 How it works
 
-1. Open [charmedanceai.org](https://charmedanceai.org/)
+1. Open [charmedanceai.org](https://charmedanceai.org/?utm_source=github&utm_medium=referral&utm_campaign=seu-ze-de-madureira-ai-dance)
 2. Upload one clear photo of a person (a full or upper-body shot works best)
 3. Pick the Baile Charme dance style
 4. Generate, download and share your dance video
@@ -67,11 +67,11 @@ It is a viral Brazilian video trend where a character dances the classic Baile C
 No. One clear photo of a person is enough — the AI animates the rest.
 
 **Is it free?**
-You can try generating dance videos for free at [charmedanceai.org](https://charmedanceai.org/).
+You can try generating dance videos for free at [charmedanceai.org](https://charmedanceai.org/?utm_source=github&utm_medium=referral&utm_campaign=seu-ze-de-madureira-ai-dance).
 
 ## 📄 License
 
-The images in this repository are the official visual assets of [Charme Dance AI](https://charmedanceai.org/). You may share them when referencing the service. The Charme Dance AI name and logo belong to their respective owners.
+The images in this repository are the official visual assets of [Charme Dance AI](https://charmedanceai.org/?utm_source=github&utm_medium=referral&utm_campaign=seu-ze-de-madureira-ai-dance). You may share them when referencing the service. The Charme Dance AI name and logo belong to their respective owners.
 
 The two video frames shown above are screenshots of public TikTok videos, included here only to document the origin of the trend. All rights to those videos belong to their original creators [@seuzerj](https://www.tiktok.com/@seuzerj) and [@iae.zenegao](https://www.tiktok.com/@iae.zenegao).
 
@@ -86,4 +86,4 @@ The two video frames shown above are screenshots of public TikTok videos, includ
 - ⚡ Pronto em cerca de um minuto
 - 📱 Compartilhe no TikTok, Instagram e WhatsApp
 
-**👉 Experimente grátis: [https://charmedanceai.org/](https://charmedanceai.org/)**
+**👉 Experimente grátis: [https://charmedanceai.org/](https://charmedanceai.org/?utm_source=github&utm_medium=referral&utm_campaign=seu-ze-de-madureira-ai-dance)**
